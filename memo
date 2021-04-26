@@ -1,1 +1,24 @@
+# Python's design goals :
+# 1. A simple and intuitive language and as powerful as the main competitor；
+# 2. Open source so that anyone can contribute to it；
+# 3. The code is as easy to understand as English；
+# 4. Suitable for daily tasks of short-term development.
+# design concepts : Elegant, clear and simple.
+# Features : 
+# 1. It is a fully object-oriented language；To solve a problem first consider who will do it.Functions, modules, numbers, strings,etc.
+# 2. Have a powerful standard library；
+# 3. A large number of third-party modules which involves CS, AI, ML, etc.
+
+
+#####  01. First HelloPython Program #####
+# The python source program is a text file in a special format; The file extension is usually .py
+# step: create 01-HelloPython.py file and edit as follows and execute this file using command python 01-HelloPython.py　in terminal.
+print("hello python")
+print("hello world")
+# The function of print is to output the content inside the "" to the screen.
+# frequent bugs: Misspell → NameError; Write multiple print functions on one line →　SyntaxError →　attention: Each line of code is responsible for completing an action.
+# Indentation error →　IndentationError →　Attention: Do not add spaces before each line of code.
+# Python 2.x defaultly do not support Chinese which Python 3.x supports. command python3 01-HelloPython.py
+# Ipython I- interaction
+# Python's IDE -- Pycharm , Integrated Development Environment
 
