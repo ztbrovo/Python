@@ -22,3 +22,17 @@ print("hello world")
 # Ipython I- interaction
 # Python's IDE -- Pycharm , Integrated Development Environment
 
+# annotation   # or """
+                  """
+# How to use annotation? Comments are not as many as possible; For complex operations, comments should be written before the operation starts; 
+                       Add comments at the end of the line for code that cannot be understood immediately; Don’t describe the code, but explain why it’s written like this.
+# Arithmetic Operator: + - * /  // 9//2=4  % 9%2=1  ** 2**3=8  "-" * 10 '----------'
+                    precedence **       * / //%      + -
+# The program is used to process data. Variables are used to store data.
+
+
+#####  Variables  #####
+# Each variable must be assigned a value before use.(=)
+
+
+
