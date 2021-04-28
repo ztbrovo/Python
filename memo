@@ -34,5 +34,45 @@ print("hello world")
 #####  Variables  #####
 # Each variable must be assigned a value before use.(=)
 
+print(x)
+type(x)
+string = input("x")
+int(x)
+float(x)
+%s %d %f %%  print("Format string" % string1)  print("Format string" % (string1,string2))   %06d  %.2f
 
+Identifiers(variable names or function names) and keywords(used identifiers by python).
+letters, numbers and _ and can not be started with numbers and repeated with keywords. Identifiers need to be case sensitive.
+Variable naming: first_name is better than FirstName or firstName.
+
+(if)
+if condition:
+    to , 
+else:
+    to 
+
+Comparison operator: ==  !=  >  <  >=  <=
+and or not
+
+elif
+
+if condition1: 
+    to 
+elif condition2:
+    to
+elif condition3:
+    to
+else:
+    to
+condition1,2,3 are the same level
+    
+nested if
+
+if condition1:
+    to1
+    if condition2:
+        to2
+    else:
+        to
+else:
 
