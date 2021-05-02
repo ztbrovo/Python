@@ -76,3 +76,66 @@ if condition1:
         to
 else:
 
+if (()
+        or ()
+        or ()):
+is better than
+if () or () or ():
+
+
+# Random number processing
+import random
+random.  Click the tab key to confirm all random function.
+random.randint(a, b)
+# attention :When importing the toolkit, the imported statement should be placed at the top of the file. 
+             Because this makes it easy for the code below to use the tools in the toolkit whenever you need it.
+
+
+# cycle
+Three methods of program development: sequence (from top to bottom), branch (judgment according to conditions), loop (repeated execution of specific code)
+# while loop
+Let the executed code be executed repeatedly according to the specified number of times.
+
+Initial conditions
+while (Determine whether the counter reaches the target number of times):
+    What to do when the conditions are met1
+    What to do when the conditions are met2
+    What to do when the conditions are met3
+    
+    Processing conditions (counter + 1)
+# Endless loop: Forgetting to modify the judgment condition of the loop inside the loop, causing the loop to continue to execute, and the program cannot be terminated.
+
+# Assignment operator
+=      c = a + b
++=     c += a equivalent to c = c + a
+-=     c -= a equivalent to c = c - a
+*=     ....
+/=     .... 
+//=  quzhengchu    ....
+%=   quyushu    ....
+
+# Python's counting method: Unless special requirements are required, the count of cycles starts from 0.
+# Cyclic calculation
+ step1' define a variable above the while funtion to store the final calculation results.
+ step2' Inside the loop, each loop uses the latest calculation result to update the previously defined variables.
+
+# often used in the cycle: break and continue.
+break: when satify some requirements, exit the loop and no longer execute subsequent repeated codes.
+continue: when satify some requirements, stop execute subsequent repeated codes.
+
+# while loop nesting
+while (Determine whether the counter reaches the target number of times):
+    What to do when the conditions are met1
+    What to do when the conditions are met2
+    What to do when the conditions are met3
+    
+    while (Determine whether the counter reaches the target number of times):
+        What to do when the conditions are met1
+        What to do when the conditions are met2
+        What to do when the conditions are met3
+    
+        Processing conditions2 (counter + 1)
+    Processing conditions1 (counter + 1)
+
+    
+
