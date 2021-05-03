@@ -1,0 +1,250 @@
+# this is a single line comment
+print("Hello world")  # also can write an easy comment after the function.
+"""
+these are multi-line comments
+can not run
+
+"""
+# define a variable to record qq number.
+qq_number = "1234567"
+# define a variable to record qq password.
+qq_password = "123"
+# When using the interpreter to execute a python program,
+# you cannot directly use the variable name to output variable information. eg. qq_number
+# Need to use print function.
+print(qq_number)
+print(qq_password)
+
+# buy apples in the market
+price = 8.5
+weight = 7.5
+# As long as you buy apples, you get 5 yuan back
+money = price * weight
+money = money - 5
+print(money)
+# The variable name appears again, not to define the variable, but to use the previously defined variable.
+
+# create personal information and as a result, python knows the type of variables automatically.
+# str is a string. string1 + string2 = string1string2
+name = "xiaoming"
+# int is a integer.
+age = 18
+# bool is a boolean,true or false. true=1, false=0.
+gender = True
+# float is a decimal
+height = 1.75
+weight = 75
+print(name)
+
+input("please input password")
+password = input("please input password")
+print(password)
+
+# price_str = input("price of apples")
+# weight_str = input("weight of apples")
+# # money = price_str * weight_str  can't be * straightly.
+# price = float(price_str)
+# weight = float(weight_str)
+# money = price * weight
+# print(money)
+price = float(input("price of apples"))
+weight = float(input("weight of apples"))
+money = price * weight
+print(money)
+
+name1 = "hanako"
+print("I am %s, yorosiku" % name1)
+student_number = 1
+print("my student number is %06d" % student_number)
+price1 = 8.5
+weight1 = 7.5
+money = price1 * weight1
+print("apples' price %.2f, weight %.2f, should pay %.2f" % (price1, weight1, money))
+# scale = 0.25 * 100
+# print("the percent is %.2f%%" % scale)
+scale = 0.25
+print("the percent is %.2f%%" % (scale * 100))
+
+import keyword
+print(keyword.kwlist)
+
+# age1 = 19
+age = int(input("please input age:"))
+if age >= 18:
+    print("drink the beer")
+else:
+    print("go home")
+print("no connection with if")
+
+age = 12
+"""
+10000
+age >= 0 or age <= 120
+age >= 0 and age <= 120
+"""
+if age >= 0 and age <=120:
+    print("correct age")
+else:
+    print("incorrect age")
+
+python_score = 80
+c_score = 75
+if python_score > 60 or c_score > 60:
+    print("pass")
+else:
+    print("fail")
+
+is_employee = True
+if not is_employee:
+    print("prohibit")
+
+holiday_name = "Valentine's Day"
+if holiday_name == "Valentine's Day":
+    print("buy flowers")
+    print("see movies")
+elif holiday_name == "Christmas Eve":
+    print("buy apples")
+    print("eat delicious food")
+elif holiday_name == "birthday":
+    print("buy cakes")
+else:
+    print("everyday is holiday")
+
+
+# Railway station security check
+has_ticket = True
+knife_length = 30
+# bool function can be used as condition straightly.
+if has_ticket:
+    print("ticket pass")
+    if knife_length > 20:
+        print("your knife's length is %d. " % knife_length)
+        print("you are not allowed to go to the train")
+    else:
+        print("have a good trip!")
+else:
+    print("please buy the ticket first.")
+
+
+import random
+# rock-paper-scissors
+player = int(input("please input your choice. rock(1)/paper(2)/scissors(3)"))
+# computer = 1
+computer = random.randint(1, 3)
+print("the player chooses %d - the computer chooses %d." % (player, computer))
+# if (player == 1 and computer == 2) or (player == 2 and computer == 3) or (player == 3 and computer == 1):
+"""
+if ((player == 1 and computer == 2)
+          or (player == 2 and computer == 3)
+          or (player == 3 and computer == 1)):
+"""
+#    print("you win")
+if (player + 1) % 3 == computer % 3:
+    print("you win")
+elif player == computer:
+    print("play again")
+else:
+    print("you lose")
+
+
+# print 5 times of "Hello Python"
+# define a int() to record the number of cycle.
+i = 1
+# start the cycle
+while i <= 5:
+    print("Hello Python")
+#   i = i + 1
+    i += 1
+print("when the cycle ends, i = %d" % i)
+
+# cycle starts from 0
+i = 0
+while i < 5:
+    print("Hello Python")
+    i += 1
+print("when the cycle ends, i = %d" % i)
+
+# Calculate the cumulative sum result of all numbers between 0 and 100.
+# define the final result variable.
+result = 0
+i = 0
+while i <= 100:
+    print(i)
+    # each loop, make result plus i.
+    result += i
+    i += 1
+print("the final result is %d" % result)
+
+# Calculate the cumulative sum result of all even numbers between 0 and 100.
+# write a cycle and confirm the even numbers.
+# add the result function and solve the result in the cycle.
+result = 0
+i = 0
+while i <= 100:
+    if i % 2 == 0:
+        print(i)
+        result += i
+    i += 1
+print("the final result is %d" % result)
+
+# break and continue
+i = 0
+while i < 100:
+    if i == 3:
+        break
+    print(i)
+    i += 1
+print("over")
+
+
+i = 0
+while i < 100:
+    if i == 3:
+        # to prevent the endless loop
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+"""
+*
+**
+***
+****
+*****
+"""
+row = 1
+while row <=5:
+    print("*" * row)
+    row += 1
+
+print("*", end="---")
+print("*")
+
+row = 1
+while row <=5:
+    col = 1
+    """
+    1  1
+    2  2
+    3  3
+    4  4
+    5  5
+    """
+    while col <= row:
+        # print("%d" % col)
+        print("*", end="")
+        col += 1
+    # print("%d row" % row)
+    print("")
+    row += 1
+
+# Nine-Nine Multiplication Table
+row = 1
+while row <= 9:
+    col = 1
+    while col <= row:
+        print("%d * % d = %d" % (col, row, col * row), end="\t")
+        col += 1
+    print("")
+    row += 1
