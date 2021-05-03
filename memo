@@ -137,5 +137,75 @@ while (Determine whether the counter reaches the target number of times):
         Processing conditions2 (counter + 1)
     Processing conditions1 (counter + 1)
 
-    
+print("*", end="") 
+print("*")   dont't change the row
 
+Escape character in string
+\\
+\'
+\"
+\n
+\t    Align text in columns vertically without using a table.
+\r
+---------------------------------------------------------------------------2020.05.03
+
+
+# Function basis
+Function' Combine code blocks with independent functions into a small module and call it when needed
+step' define and use.
+
+# define a function
+def name_of_function():
+    """comment method of function"""
+    code
+    ....
+# F8 step over and F7 step into in Pycharm
+
+# return
+
+# Nested function call
+
+# module
+Every python source code file ending with the extension py is a module.
+The global variables and functions defined in the module are tools that the module can provide to the outside world for direct use.
+use import        py→pyc to speed up
+
+
+# High-grade variation type
+ list, original composition, dictionary, character skewer, public method, variable amount
+# List
+ List: python used most frequently number type, in other languages usually screaming number set.
+ Dedicated to storing a piece of information.
+ Use [] to define the list, use , to isolate
+ The index of the list starts at 0.
+ len(list) the length of the list: n + 1
+ list.count(data) The number of times the data appears in the list.
+ # List common operations
+ in ipython: name_list = []
+             name_list. then click tab key.
+ list.sort()
+ list.sort(reverse_True)
+ list.reverse()
+ ...
+ 
+ # if forgot the information of the function, choose that function and click Ctrl + Q.
+ 
+ # difference of keyword, function, method
+ # keyword do not need ()
+import keyword
+print(keyword.kwlist)
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+# function needs to remember and needs () 
+function()
+# method needs ()
+object.method()
+ 
+# Loop traversal --for
+# Get data from the list sequentially from beginning to end.
+for name in function:
+    print(name)
+# situation
+Although different data can be stored in the python list, in development, more application scenarios are
+the list stores the same type of data, and through iterative traversal, the same operation is performed for each element in the loop.
+ 
+ 
