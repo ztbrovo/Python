@@ -208,4 +208,43 @@ for name in function:
 Although different data can be stored in the python list, in development, more application scenarios are
 the list stores the same type of data, and through iterative traversal, the same operation is performed for each element in the loop.
  
+ # tuple
+ tuple is the same as list. the difference is the elements of the tuple cannot be modified.
+ tuple is defined by ().
+ tuple is often used to store different types of variables.
+info_tuple = ()
+# When the tuple contains only one element, you need to add , after the element.
+info_tuple = (50, )
+# info.index   info.count
+# Loop traversal --tuple. Not much demand, unless you can confirm that the data types in the tuples are the same.
+# for [variable] in tuple
+for item in info
+    print(item)
+# situation
+Function parameters and return values; Format string; Make the list unchangeable.
+
+# Conversion between tuples and lists.
+list(tuple)
+tuple(list)
+
+
+# dictionary
+list---ordered
+dictionary---unordered
+{}
+key---index
+value---data
+key : value
+key must be unique.
+The value can take any data type, but the key can only use strings, numbers and tuples.
+# Common operations.
+xiaoming = {}
+xiaoming.    then pycharm will prompt usable functions.
+# Loop traversal --dictionary. Not much demand, unless you can confirm that the data types in the dictionary are the same.
+# for key in dictionary
+for k in xiaoming:
+    print("%s : %s" % (k, xiaoming[k]))
+# situation
+1. Use multiple key-value pairs to store relevant information describing an object.
+2. Put multiple dictionaries in a list, then traverse, and do the same processing for each dictionary inside the loop.
  
