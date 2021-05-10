@@ -306,4 +306,32 @@ The slicing method is suitable for strings, lists, and tuples
 str[startindex: endindex: length]
  
  
- 
+# Public method
+len(item)
+del(item)
+max(item)
+min(item)
+cmp(item1, item2)
+
+# Slice of list and tuple
+dictionary can not be sliced.
+# Operator
+*  +  in  not in  >  >=  ==  <  <= 
+# complete for loop
+for variable in item:
+    ...
+else:
+    ...(did not exit through break. when loop ends, this code will be executed)
+
+
+# Comprehensive application -- Business Card Management System
+# Frame construction
+
+
+
+
+
+
+
+
+
