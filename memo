@@ -326,7 +326,8 @@ else:
 
 # Comprehensive application -- Business Card Management System
 # Frame construction
-
+file preparation: cards_main.py  ----  Main program function code
+                  cards_tools.py  ----  All functions for business card 
 
 
 
